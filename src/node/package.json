@@ -1,0 +1,12 @@
+{
+  "name": "claim-audit-mongodb-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "demo": "node audit.js --seed --benchmark"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.8.0"
+  }
+}

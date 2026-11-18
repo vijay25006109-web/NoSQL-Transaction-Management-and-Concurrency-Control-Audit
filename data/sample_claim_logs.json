@@ -1,0 +1,51 @@
+[
+  {
+    "claimId": "CLM-1001",
+    "claimantRef": "CUST-501",
+    "eventType": "claim_submitted",
+    "status": "submitted",
+    "amount": 1250,
+    "createdAt": "2026-10-01T09:15:00Z",
+    "version": 1,
+    "metadata": {
+      "channel": "mobile",
+      "region": "south"
+    }
+  },
+  {
+    "claimId": "CLM-1002",
+    "claimantRef": "CUST-502",
+    "eventType": "document_uploaded",
+    "status": "review",
+    "amount": 890.5,
+    "createdAt": "2026-10-02T10:30:00Z",
+    "version": 1,
+    "metadata": {
+      "documentType": "invoice"
+    }
+  },
+  {
+    "claimId": "CLM-1003",
+    "claimantRef": "CUST-503",
+    "eventType": "fraud_flagged",
+    "status": "investigation",
+    "amount": 7400,
+    "createdAt": "2026-10-03T11:45:00Z",
+    "version": 1,
+    "metadata": {
+      "riskScore": 0.91
+    }
+  },
+  {
+    "claimId": "CLM-1004",
+    "claimantRef": "CUST-501",
+    "eventType": "claim_reviewed",
+    "status": "approved",
+    "amount": 1250,
+    "createdAt": "2026-10-04T12:00:00Z",
+    "version": 1,
+    "metadata": {
+      "team": "a"
+    }
+  }
+]

@@ -1,0 +1,5 @@
+language,workload,operations,elapsed_ms,average_ms_per_op,ops_per_second,total_docs_examined,total_keys_examined,notes
+Python,indexed_read,300,,,,,,Fill with measured output
+Python,insert_delete_pair,300,,,,,,Fill with measured output
+Node.js,indexed_read,300,,,,,,Fill with measured output
+Node.js,insert_delete_pair,300,,,,,,Fill with measured output
